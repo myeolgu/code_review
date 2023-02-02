@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2주차_이주엽_03</title>
+</head>
+<body>
+  <form action="">
+    <div class="title_box">
+        <label for="title">제목</label>
+        <textarea name="title" id="title"></textarea>
+    </div>
+
+    <div class="content_box">
+      <label for="content">내용</label>
+      <textarea name="content" id="content"></textarea>
+    </div>
+
+
+    <label for="file">파일첨부</label>
+     <!-- both:clear -->
+    <div class="clear"></div>
+    <!-- 스크립트 제어를 해서 선택된 파일 없음 값을 .file_name에 뜨게 해야할 것 같습니다. -->
+    <div class="file_name">file 이름</div>
+    <input type="file">
+
+    <!-- both:clear -->
+    <div class="clear"></div>
+    <button type="submit">확인</button>
+    <button type="reset">취소</button>
+  </form>
+</body>
+</html>

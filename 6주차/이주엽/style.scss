@@ -1,0 +1,196 @@
+* {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LINESeedKR-Rg";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Rg.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LINESeedKR-Th";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Th.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+.nanumgothiccoding * {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+
+.container {
+  position:relative;
+  padding-top: 100px;
+  margin:0 auto;
+  max-width:1440px;
+  width:1440px;
+
+  .contents {
+    display: inline;
+    border:1px solid #f7b1d7;
+    padding:0 4px;
+    color:#e6007e;
+    height: 20px;
+    border-radius: 4px;
+    font-size:11px;
+  }
+  .top_content {
+    position: relative;
+    width:100%;
+    display: block;
+    height: 40px;
+    span {
+      position: relative;
+      float: left;
+      font-size: 1rem;
+      font-family: "LINESeedKR-Rg";
+      margin-right: 10px;
+    }
+    .contents_top {
+      position: relative;
+      float: left;
+      display: flex;
+      li {
+        border:1px solid #f7b1d7;
+        padding:0 4px;
+        color:#e6007e;
+        height: 18px;
+        border-radius: 4px;
+        font-size:11px;
+        margin-right: 4px;
+      }
+    }
+  }
+
+  .main_content {
+    position: relative;
+    width:100%;
+    height: auto;
+    .main_box {
+      display: flex;
+      flex-direction: column;
+      > li {
+        background: #fff;
+        border-radius: 14px;
+        width: 100%;
+        padding: 32px;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+        position: relative;
+        box-shadow: 2px 3px 10px rgb(0 0 0 / 12%);
+      }
+      .main_sub_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "LINESeedKR-Rg";
+        height: 100%;
+        .sevice_box {
+          position: relative;
+          right: 0;
+          color: #e6007e;
+          border: 1px solid #e6007e;
+          min-width: 140px;
+          width: 160px;
+          box-sizing: border-box;
+          height: 40px;
+          font-size: 16px;
+          border-radius: 20px;
+          padding: 0 40px;
+          background-color: white;
+          white-space: nowrap;
+          cursor: pointer;
+          margin-left: 60px;
+          font-family: "LINESeedKR-Rg";
+          text-align: center;
+        }
+
+        > li {
+           width:500px;
+          .contents_top {
+            position: relative;
+            float: left;
+            display: flex;
+            flex-wrap:wrap;
+            width:200px;
+            li {
+              position: relative;
+              float: left;
+              border:1px solid #f7b1d7;
+              padding:0 4px;
+              color:#e6007e;
+              height: 18px;
+              border-radius: 4px;
+              font-size:11px;
+              margin-right: 4px;
+              margin-bottom: 4px;
+              line-height: 18px;
+
+            }
+          }
+        }
+      }
+        a {
+          position: relative;
+          display: block;
+          font-family: "LINESeedKR-Bd";
+          font-size:24px;
+          color:black;
+          height: 36px;
+          line-height: 36px;
+        }
+
+        .txt {
+          font-size:15px;
+          font-family: "LINESeedKR-Rg";
+        }
+        .recent_box {
+          background: #7c37d5;
+          min-width: 32px;
+          width:32px;
+          padding: 0 2px;
+          font-size:12px;
+          line-height:20px;
+          text-align:center;
+          color: white;
+          font-family: "LINESeedKR-Rg";
+        }
+      }
+    }
+
+    .select_num {
+      position: relative;
+      margin-top:20px;
+      margin-bottom:100px;
+      width:100%;
+      .number {
+        position: relative;
+        width: 300px;
+        margin:0 auto;
+        display: flex;
+        li {
+          width: 35px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
